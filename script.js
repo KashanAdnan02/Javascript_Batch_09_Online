@@ -51,3 +51,21 @@ console.log("Hello, World!")
 
 // Number
 // String
+
+
+// What is array ?
+// Array
+
+// ["Kashan", 129, "Adnan"]
+
+
+let array = ["Alishba", "Iqra", "Noreen Jahan"]
+
+// array.push("Hello")
+
+// console.log(array);
+
+array.pop()
+console.log(array);
+
+// console.log(array.length);
