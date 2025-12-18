@@ -65,7 +65,33 @@ let array = ["Alishba", "Iqra", "Noreen Jahan"]
 
 // console.log(array);
 
-array.pop()
+// array.pop()
+array.push("Kashan")
+// 4
+// ["Alishba","Iqra", "norreenn....", "Kashan"]
+
+array.shift() //Removes the first element from the array
+
+array.unshift("Hello")
+
+
+// 4
+
+
+let newArray = array.slice(1,3)
+
+console.log(newArray);
+
 console.log(array);
 
 // console.log(array.length);
+ 
+
+//     0        1        2        3
+// ["Hello", "Iqra", "Noreen", "Kashan"]
+
+// splice
+
+
+let newArr = array.splice(3,1, "Adnan", "Lahore", "pakistan")
+console.log(array);
