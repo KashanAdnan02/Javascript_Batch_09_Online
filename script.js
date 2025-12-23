@@ -1,11 +1,47 @@
-console.log("Hello, World!")
+// console.log("Hello, World!")
+
+
+/// variable stores data
+
+// myname "John"
+// profesion "Developer"
+
+
+// variable name
+/// pehle number nahi asakta
+// let myname = "john"
+// let profesion = "developer"
+// 
+
+// console.log(profesion)
+
 
 // Variable Types
-// Var // Global Variable
+// Var // Global Scope Variable
+// Let // Blocked Scope Variable
+// Const // Blocked Scope Variable
+
+// const 
+
 // block
 // {
 //     var age = 19
 // }
+
+
+
+
+
+
+
+
+// {  
+//     let a = 90;
+//     console.log(a)
+// }
+
+
+
 // console.log(age);
 
 // Var Depreceated
