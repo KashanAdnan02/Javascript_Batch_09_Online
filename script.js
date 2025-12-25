@@ -95,30 +95,30 @@
 // ["Kashan", 129, "Adnan"]
 
 
-let array = ["Alishba", "Iqra", "Noreen Jahan"]
+// let array = ["Alishba", "Iqra", "Noreen Jahan"]
 
 // array.push("Hello")
 
 // console.log(array);
 
 // array.pop()
-array.push("Kashan")
+// array.push("Kashan")
 // 4
 // ["Alishba","Iqra", "norreenn....", "Kashan"]
 
-array.shift() //Removes the first element from the array
-
-array.unshift("Hello")
+// array.shift() //Removes the first element from the array
+// 
+// array.unshift("Hello")
 
 
 // 4
 
 
-let newArray = array.slice(1,3)
+// let newArray = array.slice(1,3)
 
-console.log(newArray);
-
-console.log(array);
+// console.log(newArray);
+// 
+// console.log(array);
 
 // console.log(array.length);
  
@@ -129,5 +129,34 @@ console.log(array);
 // splice
 
 
-let newArr = array.splice(3,1, "Adnan", "Lahore", "pakistan")
-console.log(array);
+// let newArr = array.splice(3,1, "Adnan", "Lahore", "pakistan")
+// console.log(array);
+
+
+
+/// What is for loop?
+//// initialization; condition; incrementation
+// for (initialization; condition; update) {
+//   // code block to be executed
+// }
+// 0 + 1 =1
+// 1 + 1 =2
+// 2 + 1 =3
+// 3 + 1 =4
+// 4 + 1 =5
+// 9 + 1 =10 
+// false
+
+//             1 < 10  
+// for(let i = 0; i < 10; i += 1){ // true
+//     console.log("Hello it worked")
+// }
+
+
+// exact same as forloop
+// while loop
+let i = 0
+while(i < 10){
+    console.log("it worked but in while loop")
+    i += 1
+}
