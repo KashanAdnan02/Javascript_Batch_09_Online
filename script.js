@@ -269,29 +269,42 @@
 // xhttp.send();
 
 // javascript own method/keyword/function .then .catch
-fetch("https://jsonplaceholder.typicode.com/comments")
-    .then((data) => {
-        let data2 = data.json().then((data3) => {
-            console.log(data3);
-
-        }).catch((error2) => {
-            console.log(error2);
-
-        })
-    })
-    .catch((error) => {
-        console.log(error)
-    })
 
 
 
-
-
-
-
-
+// completed
+// pending
+// rejected
 
 
 
 // 1) success (data backend se agaya) then
 // 2) fail (netword problem, backend stopped, database disconnected) catch
+
+
+
+
+// PROMISES
+
+
+
+// Promises States
+// 1) pending  (initial)
+// 2) fullfilled
+// 3) rejected
+
+
+// const respsonse = fetch("https://jsonplaceholder.typicode.com/comments")
+
+// console.log(respsonse);
+
+
+// let myPromise = new Promise(function (resolve, reject) {
+//     if (result == true) {
+//         resolve("OK");
+//     } else {
+//         reject("Error");
+//     }
+// });
+
+// myPromise.then(x => myDisplay(x), x => myDisplay(x));
